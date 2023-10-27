@@ -1,0 +1,12 @@
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+/* Outros estilos globais, reset, etc. */
