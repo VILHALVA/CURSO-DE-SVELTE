@@ -2,15 +2,9 @@
 👨‍⚖️SVELTE É UM FRAMEWORK JAVASCRIPT DE CÓDIGO ABERTO PARA CONSTRUÇÃO DE INTERFACES DE USUÁRIO.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=SVELTE)
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://svelte.dev/docs/introduction) 
-[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT) <br>
-
+[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
 [![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLTd5ehIj0goM-5mQxXLmCr5nHZX_yc2QT&si=pgdYbpihe9Dy9Drh)
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png" align="center" width="280"> <br>
-
-![](https://i.imgur.com/waxVImv.png)
 
 # CONCEITO:
 Svelte é uma estrutura de desenvolvimento web que se diferencia de outras estruturas, como React e Vue, por sua abordagem de compilação. Em vez de ser executado no navegador, o código Svelte é compilado em JavaScript altamente otimizado durante o processo de construção. Isso resulta em um código mais eficiente e menor para o navegador.
