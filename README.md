@@ -1,12 +1,9 @@
 # CURSO DE SVELTE
 👨‍⚖️SVELTE É UM FRAMEWORK JAVASCRIPT DE CÓDIGO ABERTO PARA CONSTRUÇÃO DE INTERFACES DE USUÁRIO.
 
-[![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://svelte.dev/docs/introduction) 
-[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
-[![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLTd5ehIj0goM-5mQxXLmCr5nHZX_yc2QT&si=pgdYbpihe9Dy9Drh)
+<img src="FOTO.png" align="center" width="400"> <br>
 
-# CONCEITO:
+## CONCEITO:
 Svelte é uma estrutura de desenvolvimento web que se diferencia de outras estruturas, como React e Vue, por sua abordagem de compilação. Em vez de ser executado no navegador, o código Svelte é compilado em JavaScript altamente otimizado durante o processo de construção. Isso resulta em um código mais eficiente e menor para o navegador.
 
 Aqui estão alguns conceitos fundamentais em Svelte:
@@ -21,32 +18,19 @@ Aqui estão alguns conceitos fundamentais em Svelte:
 
 5. **Ciclo de vida simplificado:** Svelte simplifica o ciclo de vida do componente, o que torna mais fácil entender quando os componentes são criados, atualizados e destruídos.
 
-Aqui está um exemplo simples de um componente Svelte e uma explicação básica:
+## SUA HISTÓRIA:
+Svelte foi desenvolvido por Rich Harris e lançado em novembro de 2016. O objetivo principal por trás do Svelte era abordar as ineficiências e complexidades dos métodos tradicionais de desenvolvimento front-end, como React, Vue e Angular.
 
-```html
-<script>
-  let count = 0;
+A ideia fundamental do Svelte é que o trabalho de construir a interface do usuário deveria ser feito durante o tempo de compilação, em vez de ser delegado para o navegador. Isso significa que, em vez de enviar um grande framework de front-end para o navegador e deixar o navegador interpretar e manipular o DOM (Document Object Model), o Svelte converte o código-fonte do aplicativo em código JavaScript otimizado durante o tempo de compilação. Isso resulta em um código mais limpo e eficiente que é enviado para o navegador.
 
-  function increment() {
-    count += 1;
-  }
-</script>
+O Svelte se distingue de outros frameworks front-end por seu conceito de "compilador de tempo de compilação" (build-time compiler). Quando você escreve código em Svelte, está escrevendo código em uma linguagem de alto nível semelhante ao HTML, CSS e JavaScript. Durante o processo de compilação, o código-fonte é transformado em código JavaScript otimizado, que é então enviado para o navegador.
 
-<button on:click={increment}>
-  Clique para incrementar: {count}
-</button>
-```
+Uma das vantagens do Svelte é que ele elimina a necessidade de uma camada de abstração como Virtual DOM (usado por React) ou Reactive Data Binding (usado por Vue). Isso significa que aplicativos Svelte podem ser mais rápidos e ter um tamanho de bundle menor em comparação com aplicativos equivalentes em outros frameworks.
 
-Neste exemplo:
+Desde seu lançamento inicial, o Svelte tem crescido em popularidade e adoção, especialmente entre desenvolvedores que desejam construir aplicativos web rápidos e eficientes. O ecossistema do Svelte continua a se expandir, com uma ampla variedade de ferramentas, bibliotecas e recursos disponíveis para os desenvolvedores.
 
-- A seção `<script>` é onde você declara variáveis, funções e lógica do componente.
-- A variável `count` é reativa, o que significa que quando ela é alterada, a interface do usuário é atualizada automaticamente.
-- A função `increment` é chamada quando o botão é clicado e atualiza a variável `count`.
-
-Você pode incluir esse código em um arquivo `.svelte` e, ao construir seu aplicativo, o código Svelte o compilará em JavaScript otimizado para o navegador.
-
-# CARACTERISTICAS:
-## Características Positivas:
+## CARACTERISTICAS:
+### POSITIVAS:
 1. **Desempenho Superior:** Svelte compila seu código em JavaScript altamente otimizado durante o processo de construção, resultando em aplicativos mais rápidos e eficientes em termos de desempenho em comparação com algumas outras estruturas, que atualizam o DOM em tempo de execução.
 
 2. **Sintaxe Simples e Clara:** A sintaxe de Svelte é mais simples e direta em comparação com algumas outras estruturas, tornando mais fácil para os desenvolvedores entenderem e escreverem código.
@@ -57,7 +41,7 @@ Você pode incluir esse código em um arquivo `.svelte` e, ao construir seu apli
 
 5. **Fácil Integração:** Svelte é altamente compatível com outras bibliotecas e frameworks JavaScript, o que facilita sua integração em projetos existentes.
 
-## Características Negativas:
+### NEGATIVAS:
 1. **Adoção Menor:** Svelte não é tão amplamente adotado quanto estruturas mais estabelecidas como React, Vue ou Angular. Isso pode resultar em menos recursos da comunidade, bibliotecas de terceiros e documentação disponíveis.
 
 2. **Curva de Aprendizado:** Embora a sintaxe seja mais simples, Svelte ainda possui sua própria curva de aprendizado, e os desenvolvedores que já estão familiarizados com outras estruturas podem precisar de tempo para se ajustar aos conceitos únicos do Svelte.
@@ -67,4 +51,11 @@ Você pode incluir esse código em um arquivo `.svelte` e, ao construir seu apli
 4. **Ecossistema Menor:** O ecossistema de bibliotecas e plugins para Svelte é menor em comparação com estruturas mais populares, o que pode tornar mais desafiador encontrar soluções prontas para tarefas específicas.
 
 5. **Tamanho do Complemento:** Aplicativos Svelte podem ter um tamanho inicial maior do que aplicativos similares em outras estruturas devido à inclusão do Svelte Runtime, embora isso possa ser compensado pelo desempenho e pela otimização no longo prazo.
+
+## SUBSIDIOS:
+- [CURSO CRIADO PELO "MAKIGAS"](https://youtube.com/playlist?list=PLTd5ehIj0goM-5mQxXLmCr5nHZX_yc2QT&si=pgdYbpihe9Dy9Drh)
+- [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
+- [VEJA A DOCUMENTAÇÃO](https://svelte.dev/docs/introduction)
+- [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
+- [VEJA A SINTAXE](./SINTAXE.md)
 
