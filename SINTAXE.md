@@ -1,16 +1,42 @@
 # SINTAXE
-Para criar um projeto básico em Svelte, você pode usar o Svelte REPL (Read-Eval-Print Loop), que é um ambiente online onde você pode escrever código Svelte e ver o resultado em tempo real. Aqui estão os passos:
+## CRIANDO PROJETO:
+1. **Instalação do Svelte CLI**: O Svelte oferece uma CLI (Interface de Linha de Comando) que facilita a criação e gerenciamento de projetos. Para instalar a CLI globalmente em seu sistema, execute o seguinte comando no terminal ou prompt de comando:
 
-Passo 1: Acesse o Svelte REPL em [Svelte REPL](https://svelte.dev/repl/hello-world?version=3.44.0).
+```
+npm install -g svelte
+```
 
-Passo 2: No Svelte REPL, você verá três arquivos: `App.svelte`, `main.js` e `styles.css`.
+2. **Criar um novo projeto Svelte**: Após instalar a CLI do Svelte, você pode criar um novo projeto executando o seguinte comando:
 
-- O arquivo `App.svelte` é onde você escreverá o código HTML e Svelte para sua aplicação.
-- O arquivo `main.js` é onde você importará e inicializará o componente principal da sua aplicação Svelte.
-- O arquivo `styles.css` é onde você pode adicionar estilos CSS para sua aplicação.
+```
+npx degit sveltejs/template nome-do-seu-projeto
+```
 
-Passo 3: No arquivo `App.svelte`, você pode começar a escrever seu código Svelte. Por exemplo, você pode substituir o conteúdo existente pelo seguinte:
+Substitua `nome-do-seu-projeto` pelo nome que você deseja dar ao seu projeto.
 
+3. **Navegar para o diretório do projeto**: Depois de criar o projeto, navegue para o diretório do projeto:
+
+```
+cd nome-do-seu-projeto
+```
+
+4. **Instalar as dependências do projeto**: Dentro do diretório do projeto, instale as dependências executando:
+
+```
+npm install
+```
+
+Isso instalará todas as dependências necessárias para o seu projeto Svelte.
+
+5. **Executar o servidor de desenvolvimento**: Finalmente, para iniciar o servidor de desenvolvimento e visualizar seu projeto, execute:
+
+```
+npm run dev
+```
+
+Agora é só acessar o app digitando `http://localhost:8080` em seu navegador.
+
+## CODIGO:
 ```html
 <script>
   let name = 'world';
@@ -44,3 +70,34 @@ Passo 5: Você pode adicionar estilos adicionais ao seu projeto no arquivo `styl
 Passo 6: Agora você pode clicar no botão "Run" no Svelte REPL para ver o resultado do seu código em tempo real. Você deve ver a mensagem "Hello, WORLD!" exibida na tela, formatada com a cor roxa definida em `styles.css`.
 
 Este é apenas um exemplo básico para começar. Você pode expandir e personalizar sua aplicação Svelte adicionando mais componentes, interatividade e estilos conforme necessário. Se preferir trabalhar localmente, você pode configurar um ambiente de desenvolvimento local para o Svelte usando ferramentas como `svelte-kit` ou `create-svelte-app`.
+
+## DIRETÓRIOS:
+```
+nome-do-seu-projeto/
+│
+├── public/
+│   ├── index.html
+│   └── ...
+│
+├── src/
+│   ├── App.svelte
+│   └── ...
+│
+├── node_modules/
+│   └── ...
+│
+├── package.json
+├── package-lock.json
+└── ...
+```
+
+- **public/**: Este diretório contém arquivos estáticos que são servidos diretamente para o navegador. O arquivo `index.html` neste diretório é o ponto de entrada principal da sua aplicação e geralmente contém o elemento `<script>` que carrega a aplicação Svelte. Outros recursos estáticos, como imagens, fontes e arquivos CSS, podem ser colocados neste diretório.
+
+- **src/**: Este é o diretório onde você escreve o código fonte da sua aplicação Svelte. O arquivo `App.svelte` é o componente principal da aplicação, que é renderizado na página. Você pode criar outros componentes e colocá-los neste diretório conforme necessário.
+
+- **node_modules/**: Este diretório contém todas as dependências do projeto, incluindo as dependências do Svelte e quaisquer outras bibliotecas que você tenha instalado. Este diretório é gerado automaticamente quando você executa `npm install`.
+
+- **package.json**: Este arquivo é o arquivo de manifesto do seu projeto Node.js. Ele contém metadados sobre o projeto, bem como informações sobre as dependências do projeto. Aqui você também pode definir scripts personalizados, como o script `dev` que usamos para iniciar o servidor de desenvolvimento.
+
+- **package-lock.json**: Este arquivo é gerado automaticamente pelo npm e contém informações detalhadas sobre as dependências do projeto, incluindo as versões exatas das dependências instaladas.
+
