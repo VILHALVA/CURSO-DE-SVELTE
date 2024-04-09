@@ -1,3 +1,6 @@
+# AVISO:
+Gostaríamos de salientar que até o projeto final, estaremos fornecendo códigos genéricos no diretório `CODIGO`. Estes códigos são um pouco diferentes daqueles fornecidos no curso original. Fica a seu critério fazer as instalações e personalizá-los de acordo com as suas preferências.
+
 # INTRODUÇÃO, INSTALAÇÃO E CONFIGURAÇÃO
 **Conceito:**
 Svelte é uma estrutura de desenvolvimento web que se concentra na compilação de componentes reativos em código JavaScript otimizado. Em vez de ser executado no navegador, o código Svelte é compilado durante o processo de construção, o que resulta em aplicativos altamente eficientes em termos de desempenho e um código mais enxuto. Ele permite a criação de interfaces do usuário reativas de forma simples, com lógica JavaScript embutida.
