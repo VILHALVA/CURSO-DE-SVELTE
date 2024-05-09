@@ -57,5 +57,6 @@ Desde seu lançamento inicial, o Svelte tem crescido em popularidade e adoção,
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://svelte.dev/docs/introduction)
 - [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
-- [VEJA A SINTAXE](./SINTAXE.md)
+- [VEJA O MANUAL](./MANUAL.md)
 - [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=topic:SVELTE)
+
