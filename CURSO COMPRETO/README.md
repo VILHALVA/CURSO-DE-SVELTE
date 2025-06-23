@@ -1,7 +1,7 @@
 # INSTRUÇÕES
 
 ---
-## ÍNDICE
+## INDICE
 - [01) INTRODUÇÃO, INSTALAÇÃO E CONFIGURAÇÃO](./README.md#01-introdução-instalação-e-configuração)
 - [02) COMO CRIAR UM PROJETO SVELTE?](./README.md#02-como-criar-um-projeto-svelte)
 - [03) COMO CRIAR COMPONENTES SVELTE?](./README.md#03-como-criar-componentes-svelte)
