@@ -1,4 +1,39 @@
 # INSTRUÇÕES
+
+---
+## ÍNDICE
+- [01) INTRODUÇÃO, INSTALAÇÃO E CONFIGURAÇÃO](./README.md#01-introdução-instalação-e-configuração)
+- [02) COMO CRIAR UM PROJETO SVELTE?](./README.md#02-como-criar-um-projeto-svelte)
+- [03) COMO CRIAR COMPONENTES SVELTE?](./README.md#03-como-criar-componentes-svelte)
+- [04) COMO ADICIONAR DADOS DINÂMICOS E ADEREÇOS A UM COMPONENTE?](./README.md#04-como-adicionar-dados-dinâmicos-e-adereços-a-um-componente)
+- [05) COMO ANINHAR COMPONENTES NO SVELTE?](./README.md#05-como-aninhar-componentes-no-svelte)
+- [06) COMO CAPTURAR EVENTOS?](./README.md#06-como-capturar-eventos)
+- [07) COMO FUNCIONA A REATIVIDADE DO SVELTE?](./README.md#07-como-funciona-a-reatividade-do-svelte)
+- [08) COMO FUNCIONA A DIRETIVA IF?](./README.md#08-como-funciona-a-diretiva-if)
+- [09) COMO CRIAR LOOPS FOR?](./README.md#09-como-criar-loops-for)
+- [10) COMO USAR A DIRETIVA WAIT?](./README.md#10-como-usar-a-diretiva-wait)
+- [11) COMO USAR O BIND COM VARIÁVEIS?](./README.md#11-como-usar-o-bind-com-variáveis)
+- [12) PARA QUE SERVE BIND:THIS?](./README.md#12-para-que-serve-bindthis)
+- [13) PARA QUE SERVE UM EVENTO PERSONALIZADO?](./README.md#13-para-que-serve-um-evento-personalizado)
+- [14) COMO USAR O CREATEEVENTDISPATCHER?](./README.md#14-como-usar-o-createeventdispatcher)
+- [15) COMO ADICIONAR METADADOS A UM EVENTO?](./README.md#15-como-adicionar-metadados-a-um-evento)
+- [16) COMO PROPAGAR EVENTOS ENTRE COMPONENTES?](./README.md#16-como-propagar-eventos-entre-componentes)
+- [19) COMO USAR PREVENTDEFAULT E OUTROS MODIFICADORES DE EVENTOS?](./README.md#19-como-usar-preventdefault-e-outros-modificadores-de-eventos)
+- [20) COMO TRABALHAR COM CSS?](./README.md#20-como-trabalhar-com-css)
+- [21) COMO ADICIONAR CLASSES CSS CONDICIONAIS?](./README.md#21-como-adicionar-classes-css-condicionais)
+- [22) COMO DECLARAR CSS INLINE E COM VARIÁVEIS?](./README.md#22-como-declarar-css-inline-e-com-variáveis)
+- [23) COMO DEFINIR ESTILOS CSS GLOBAIS?](./README.md#23-como-definir-estilos-css-globais)
+- [24) COMO IMPORTAR FOLHAS DE ESTILO?](./README.md#24-como-importar-folhas-de-estilo)
+- [25) COMO USAR O OPERADOR $ (DÓLAR)?](./README.md#25-como-usar-o-operador--dólar)
+- [26) O QUE SÃO SLOTS DE COMPONENTES?](./README.md#26-o-que-são-slots-de-componentes)
+- [27) COMO COLOCAR VÁRIOS SLOTS EM UM COMPONENTE?](./README.md#27-como-colocar-vários-slots-em-um-componente)
+- [28) COMO INTERAGIR COM JANELA, CABEÇA E CORPO?](./README.md#28-como-interagir-com-janela-cabeça-e-corpo)
+- [29) COMO ATUALIZAR UM PROJETO DE ROLLBAR PARA VITE?](./README.md#29-como-atualizar-um-projeto-de-rollbar-para-vite)
+- [30) COMO CRIAR COMPONENTES DA WEB?](./README.md#30-como-criar-componentes-da-web)
+- [31) COMO INTEGRAR TYPESCRIPT OU SCSS?](./README.md#31-como-integrar-typescript-ou-scss)
+- [32) O QUE MAIS DEVO OLHAR SOBRE SVELTE?](./README.md#32-o-que-mais-devo-olhar-sobre-svelte)
+---
+
 ## 01) INTRODUÇÃO, INSTALAÇÃO E CONFIGURAÇÃO
 **Conceito:**
 Svelte é uma estrutura de desenvolvimento web que se concentra na compilação de componentes reativos em código JavaScript otimizado. Em vez de ser executado no navegador, o código Svelte é compilado durante o processo de construção, o que resulta em aplicativos altamente eficientes em termos de desempenho e um código mais enxuto. Ele permite a criação de interfaces do usuário reativas de forma simples, com lógica JavaScript embutida.
